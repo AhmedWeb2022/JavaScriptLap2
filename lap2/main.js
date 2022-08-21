@@ -1,4 +1,5 @@
- var stop = false;
+// Task 1 
+var stop = false;
 
  while (!stop) {
    checkAge();
@@ -24,7 +25,8 @@
      console.log("Wrong Number");
    }
  }
-
+//--------------------------------------------------------------------------------------------------------------------
+// Task 2 
  var strr = prompt("enter your string");
  var count = 0;
  for (let i = 0; i < strr.length; i++) {
@@ -33,7 +35,8 @@
    }
  }
  console.log(`number of Vowels is : ${count}`);
-
+//-------------------------------------------------------------------------------------------------------------------------
+//Task3
 var twilveTime = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var fourteenTime = [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
 var time = parseInt(prompt("enter your time"));
